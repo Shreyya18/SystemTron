@@ -4,77 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
-    <style>
-        body{
-    background-color: rgba(0, 255, 255, 0.151);
-    /* width: 100vh;
-    height: 100%; */
-}
-.calc{
-    width: 20rem;
-    height:25rem;
-    background-color: rgba(34, 33, 51, 0.922);
-    margin:5rem auto;
-    border-radius: 15px;
-    padding: 10px;
-}
-#text{
-    width:19.8rem;
-    height:7rem;
-    background-color: rgba(24, 20, 78, 0);
-    text-decoration: none;
-    border: none;
-    color:white;
-    font-weight: 400;
-    font-size:50px;
-}
-.key{
-    width:4rem;
-    height: 3rem;
-    margin: 5px;
-    border-radius: 10px;
-    border:none;
-    font-weight:600;
-    color:rgba(24, 20, 78, 0.797);
-    text-align: center;
-    font-size: medium;
-}
-.equal{
-    width:9rem;
-}
-.operator{
-    color: rgb(255, 72, 0);
-}
-    </style>
 </head>
 <body>
-    <div class="calc">
-        <input type="text" id="text">
-        <input type="button" value="AC" class="key operator" onclick="text.value=''">
-        <input type="button" value="DE"  class="key operator" onclick="text.value=text.value.slice(0,-1)">
-        <input type="button" value="." class="key operator" onclick="text.value+='.'">
-        <input type="button" value="/" class="key operator" onclick="text.value+='/'">
-
-        <input type="button" value="7" class="key"
-        onclick="text.value+='7'">
-        <input type="button" value="8" class="key" onclick="text.value+='8'">
-        <input type="button" value="9" class="key" onclick="text.value+='9'">
-        <input type="button" value="*"  class="key operator" onclick="text.value+='*'">
-
-        <input type="button" value="4" class="key" onclick="text.value+='4'" >
-        <input type="button" value="5" class="key" onclick="text.value+='5'">
-        <input type="button" value="6" class="key" onclick="text.value+='6'">
-        <input type="button" value="-" class="key operator" onclick="text.value+='-'">
-
-        <input type="button" value="1" class="key" onclick="text.value+='1'">
-        <input type="button" value="2" class="key" onclick="text.value+='2'">
-        <input type="button" value="3" class="key" onclick="text.value+='3'">
-        <input type="button" value="+" class="key operator" onclick="text.value+='+'">
-
-        <input type="button" value="00" class="key" onclick="text.value+='00'">
-        <input type="button" value="0" class="key" onclick="text.value+='0'">
-        <input type="button" value="=" class="key equal operator" onclick=" text.value=eval(text.value)">
-        
-    </div>
+    
 </body>
 </html>
