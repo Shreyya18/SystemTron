@@ -280,4 +280,18 @@ nav .language-btn{
 .features .row{
     padding: 10px 0;
 }
+.faq h2{
+    font-size: 20px;
+}
+.accordion .content{
+    font-size: 14px;
+}
+.accordion li label{
+    padding: 10px;
+    font-size: 14px;
+}
+label::after{
+    font-size: 22px;
+    
+}
 }
