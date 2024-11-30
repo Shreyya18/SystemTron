@@ -1,5 +1,3 @@
-
-
 var playerRed = "R";
 var playerYellow = "Y";
 var currPlayer = playerRed;
